@@ -1,30 +1,31 @@
 # Ex2
 
-
-
 ## Authors:
+ Shani Mergui
+ 
+![alt text](https://www.pngitem.com/pimgs/m/117-1172768_pokemon-hd-png-download.png)
 
-Shani Mergui
+## About The Project:
 
-![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsgpl.ca%2Fprograms%2Fvirtual-pokemon-club&psig=AOvVaw3JexYTshwHgGLWYqSMroyr&ust=1608561948613000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCT6KCX3e0CFQAAAAAdAAAAABAe)
+The project's subject is about a weighted and directed graph. The source is pointing towards the destination. In between them, on the edgde there is the weight.
 
-## Aabout the project:
+## The Classes:
 
+This project is composed of 2 different parts : 
 
-## The classes:
+1) In the first part, we have api that is a collection of algorithms on a deliberate weighted graph.
+Api will help us developping the nodes, graph, edges and the connections.
+In this part we are also interested in finding the shortest path with api.
 
-option 1
-1. path Ex2
-2. java -jar Ex2.jar <parmter-id> <parmter-level>
-
-option 2
-1. path Ex2
-2. java -jar Ex2.jar
+2)  In second part, 
 
 
-## Sources:
 
-* https://www.youtube.com/watch?v=pVfj6mxhdMw.
+s is the basis for creating the graph, the ribs, the nodes, the connections between them, finding the shortest path in the graph, checking if the graph is a link and more. The second part is a game client, where we created the game, created the moves of capturing the Pokemon, placed them on the graph, created the gui of the graph display, the music, the images and the entry into the game.
+
+
+## Source:
+
+* https://www.youtube.com/watch?v=pVfj6mxhdMw&t=371s 
 
 * https://www.youtube.com/watch?v=TyWtx7q2D7Y.
-alt text
