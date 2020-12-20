@@ -29,25 +29,22 @@ In this project we used 2 different algorithms:
 
 We used functions : shortestpathDist returns a value and shortestpath returns the detailed path.
 
-Tarjan algorithm:
-The nodes are placed on a pile in the order of their visit.
-When the first depth search recursively visits the v node and its descendants, not all of these nodes are necessarily sucked out of the pile when this recursive call returns. 
-The essential unchanging characteristic is that a node remains in a stack after its visit if and only if there is a path in the input graph from it to some node earlier in the stack. 
-In other words, it means that in DFS a node is only removed from the stack after all its connected paths have been crossed. When the DFS goes back it will remove the nodes in a single path and return to the root to start a new path.
+#Tarjan algorithm:
+Tarjan's Algorithm is an efficient graph algorithm to find the strongly connected components in a directed graph in linear time by utilizing Depth First Search traversal of a graph. The key idea used is that nodes of strongly connected component form a subtree in the DFS spanning tree of the graph.
 
-Dijkstra algorithm:
+#Dijkstra algorithm:
 
 It gets 2 nodes- src and dest : go from the src node to the destination node with the lowest weight.
 
-We initialize all the nodes' weight to infinity to understand which node was not updated yet. After that we are creating a priority queue q that is responsible to contain the nodes at which we arrive, update their weights. 
-In addition, we created the parentNodes shamp that will eventually contain the updated nodes through which we passed the shortest trajectory in the graph from the vertex src and dest. We enter the first node and initialize its weight to 0, and all the other nodes in the graph are initialized to infinity. 
-The current junction will include all of its neighbors and will update its temporary weights. 
-The weight of each node is updated according to the parent weight of that node plus the temporary distance between them which is the weight at the end. Then the same junction we started with becomes the father of this junction and leaves the queue, it is already marked that we have already visited it and we will not return to it again. 
-Each of the neighbors presented treats him in the same way: Put his neighbors in line and update their weights. 
-Each node can have several neighbors and then also some fathers through which they come, so if one of the neighbors is already updated in weight because we reached it through another parent node, we will check through which neighbor it will be the lowest weight node, then we will keep the lower weight. We will remove the node from the queue and return it with the updated weight. 
+We initialize all the nodes' weight to infinity to understand which node was not updated yet.
+After that we are creating a priority queue q that is responsible to contain the nodes at which we arrive, update their weights. 
+The weight of each node is updated according to the parent weight of that node plus the temporary distance between them which is the weight at the end. 
+Then the same junction we started with becomes the father of this junction and leaves the queue, it is already marked that we have already visited it and we will not return to it again.  
+Each node can have several neighbors and then also some fathers through which they come, so if one of the neighbors is already updated in weight because we reached it through another parent node, we will check through which neighbor it will be the lowest weight node, then we will keep the lower weight.
+We will remove the node from the queue and return it with the updated weight. 
 
 ## Source:
 
-* https://www.youtube.com/watch?v=pVfj6mxhdMw&t=371s 
-
-* https://www.youtube.com/watch?v=TyWtx7q2D7Y.
+* https://www.youtube.com/watch?v=pVfj6mxhdMw&t=371s  // dijkstra
+* https://www.youtube.com/watch?v=TyWtx7q2D7Y. // tarjan
+* https://iq.opengenus.org/tarjans-algorithm/
