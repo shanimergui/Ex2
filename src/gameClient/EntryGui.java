@@ -18,24 +18,24 @@ public class EntryGui extends JFrame {
     }
 
     public void print_entry(){
-        //הגדרת איך המסך יראה
+        //set how the screen will look
         this .setSize(300, 100);
         this.getContentPane().setLayout(new FlowLayout());
-        JLabel id=new JLabel("Id ");
-        JLabel level=new JLabel("Level[0,23] ");
+        JLabel id=new JLabel("Id");
+        JLabel level=new JLabel(" Level [0,23] ");
         JTextField id_text =new JTextField("",8);
         JTextField level_text =new JTextField("",8);
-        //הגדרתי כפתור
+        //i set a button
         JButton start= new JButton("Start");
         this.add(id);
         this.add(id_text);
         this.add(level);
         this.add(level_text);
-        //הוספתי כפתור למסך
+        //add a button to the screen
         this.add(start);
-        //הפעלתי את המסך
+        //activate the screen
         this.setVisible(true);
-    //מה קורה שאני לוחץ על הכפתור start
+    //what happens when a button us pressed on start
         start.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

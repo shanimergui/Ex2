@@ -8,6 +8,7 @@ import implementation.DWGraph_Algo;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -107,7 +108,7 @@ public class Ex2 implements Runnable{
 					double dist = al.shortestPathDist(src,pokemon.get_edge().getSrc());
 					if(dist<minDist){
 					minDist = dist;
-					poke = pokemon;// נשמור את הפוקימון אם הדרך הקצרה ביותר
+					poke = pokemon;// we save the pokemon with the shortest past
 					}
 				}
 
