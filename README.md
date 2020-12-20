@@ -5,7 +5,11 @@
 ### hiii my read me 
 # hiii my read me 
 
-![alt text](https://github.com/shanimergui/Ex2/blob/master/data/image/pokemov.png)
+
+
+
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsgpl.ca%2Fprograms%2Fvirtual-pokemon-club&psig=AOvVaw3JexYTshwHgGLWYqSMroyr&ust=1608561948613000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCT6KCX3e0CFQAAAAAdAAAAABAe)
+
 option 1
 1. path Ex2
 2. java -jar Ex2.jar <parmter-id> <parmter-level>
