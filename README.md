@@ -3,7 +3,7 @@
 ## Authors:
  Shani Mergui
  
-![alt text](https://www.pngitem.com/pimgs/m/117-1172768_pokemon-hd-png-download.png)
+![alt text](https://www.google.com/url?sa=i&url=http%3A%2F%2Falexvolov.com%2Ftag%2Ftarjans-algorithm%2F&psig=AOvVaw13jHWGlo6_XuQvJdPpRX6a&ust=1610725171402000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCdh4Lhm-4CFQAAAAAdAAAAABAD)
 
 ## About The Project:
 
