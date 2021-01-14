@@ -3,7 +3,7 @@
 ## Authors:
  Shani Mergui
  
-![alt text](https://www.google.com/url?sa=i&url=http%3A%2F%2Falexvolov.com%2Ftag%2Ftarjans-algorithm%2F&psig=AOvVaw13jHWGlo6_XuQvJdPpRX6a&ust=1610725171402000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCdh4Lhm-4CFQAAAAAdAAAAABAD)
+![alt text](http://alexvolov.com/wp-content/uploads/2015/02/scc4.png)
 
 ## About The Project:
 
