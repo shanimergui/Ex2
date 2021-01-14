@@ -3,7 +3,7 @@
 ## Authors:
  Shani Mergui
  
-![alt text](http://alexvolov.com/wp-content/uploads/2015/02/scc4.png)
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_NC5WohO-V14XcVoQaDvc81Otnj9ulGWHJA&usqp=CAU)
 
 ## About The Project:
 
